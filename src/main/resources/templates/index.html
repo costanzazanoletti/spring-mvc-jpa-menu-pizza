@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	    <meta charset="UTF-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <link href="https://fonts.googleapis.com/css2?family=Handlee" rel="stylesheet">
+	    <link
+	      rel="stylesheet"
+	      href="/css/application.css"
+	    />
+	    <title>Menu</title> 
+	</head>
+	<body>
+	<div class="container">
+		<h1 class="uppercase">Menu Pizze</h1>
+		<ul>
+			<li th:each="pizza : ${pizze}">
+				<div class="item">
+				<div class="text">
+				<h2 class="uppercase" th:text="${pizza.nome}"></h2>
+				<p th:text="${pizza.ingredienti}"></p>
+				</div>
+				<div class="price" th:text="${#numbers.formatDecimal(pizza.prezzo, 0, 'POINT', 2, 'COMMA') + '&nbsp;&euro;'}"></div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

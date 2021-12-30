@@ -1,0 +1,10 @@
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Margherita', 'pomodoro, mozzarella', 6.0, 0);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Margherita DOP', 'pomodoro, bufala, pomodorini, basilico, parmigiano', 8.0, 0);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Marinara', 'pomodoro, aglio, origano', 6.0, 1);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Margherita', 'pomodoro, mozzarella, acciughe, origano', 7.0, 0);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Tonno e cipolla', 'pomodoro, mozzarella, tonno, cipolla', 7.0, 0);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('4 Stagioni', 'pomodoro, mozzarella, funghi, cotto, carciofi olive', 7.0, 0);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Primavera', 'pomodorini, rucola', 5.0, 1);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Margherita', 'pomodoro, mozzarella', 6.0, 0);
+INSERT INTO pizza (nome, ingredienti, prezzo, vegana) VALUES('Calzone', 'mozzarella, salsiccia, parmigiano', 8.0, 0);
+UPDATE pizza SET descrizione = 'Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow''s nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave. Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow''s nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.';
